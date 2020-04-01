@@ -4,6 +4,7 @@
 
 
 console.log('main. js is working')
+alert('Solution of problem in CONSOLE')
 
 // BASIC SOLUTION //
 
@@ -44,6 +45,7 @@ function building_table_orderItem(array, table) {
 }
 
 function building_list(min, max, a, b) {
+    // A function accepting four integers (min, max, a, b), and returing a list of all integers n, being min <= n <= a, provided that: multiples of both a and b are substituted with the string "FizzBuzz"; multiples of a but not b with "Fizz"; and multiples of b but not a with "Buzz".
     var list = []
 
     for (i = min; i < (max + 1); i++) {
