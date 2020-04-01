@@ -11,37 +11,44 @@
     <div class="app flex">
         <header class="text-center">
             <h1>js-fizzbuzz</h1>
-            <p class="istruction">
+            <div class="istruction central small-text">
                 <ul>
                     <li>Press the button to build a list of intergers beetween a minimum and maximum value, being multiples of both parameters a and b are substituted with the string "FizzBuzz"; multiples of a but not b with "Fizz"; and multiples of b but not a with "Buzz" </li>
                     <li>Default values for min, max, a and b are: 0, 100, 3 and 5</li>
                 </ul>
-            </p>
+            </div>
         </header>
         
         <main class="flex-w">
             <section class="user-section">
                 <div>
                     <div class=default-section>
-                        <ul>
-                            <li>1</li>
-                            <li>100</li>
-                            <li>3</li>
-                            <li>5</li>
-                        </ul>
-                        <button id="default-button" class="button block">Use default values</button>
+                        <button id="default-button" class="button block central green white-color">Use default values</button>
                     </div>
 
                     <div class=custom-wrapper>
-                        <div class="input-wrapper flex-w">
-                            <input id="min" type="number" placeholder="Min">
-                            <input id="max" type="number" placeholder="Max">
-                            <input id="a" type="number" placeholder="a">
-                            <input id="b" type="number" placeholder="b">
+                        <h4 class=text-center>Set your values</h4>
+                        <div class="input-wrapper">
+                            <div class="input-box">
+                                <label for="min">Min:</label>
+                            <input id="min" type="number" value="1">
+                            </div>
+                            <div class="input-box">
+                                <label for="max">Max:</label>
+                                <input id="max" type="number" value="100">
+                            </div>
+                            <div class="input-box">
+                                <label for="a">a:</label>
+                            <input id="a" type="number" value="2">
+                            </div>
+                            <div class="input-box">
+                                <label for="b">b: </label>
+                                <input id="b" type="number" value="5">
+                            </div>
                         </div>
 
                         <div>
-                            <button id="custom-button" class="button block">Use my values</button>
+                            <button id="custom-button" class="button block central green white-color">Use my values</button>
                         </div>
                     </div>
                 </div>

@@ -32,6 +32,10 @@ body {
     margin: auto;
 }
 
+.green {
+    background: green;
+}
+
 .green-color {
     color: green;
 }
@@ -41,9 +45,12 @@ body {
 }
 
 .small-text {
-    font-size: 70%;
+    font-size: 80%;
 }
 
+.white-color {
+    color: #fff;
+}
 
 
 
@@ -66,23 +73,56 @@ header > * {
     flex-basis: 200px;
 }
 
+.istruction {
+    max-width: 800px;
+}
+
+.istruction li {
+    margin-bottom: 10px;
+}
+
+
+
 /* MAIN */
 main {
-    
+    padding: 10px;
 }
 
 
 
 /* Main: USER-SECTION */
 .user-section {
-    flex-basis: 40%;
-}
-
-input-wrapper input{
+    margin: 10xp;
     padding: 10px;
-    flex-basis: 10px;
+    flex-basis: 40%;
+    border: 2px solid #000;
 }
 
+.default-section {
+    margin-bottom: 25px;
+    padding: 5px 0 15px 0;
+    border-bottom: 1px dotted #ccc
+}
+
+.input-wrapper {
+    margin-bottom: 15px;
+    padding: 0 25px;
+}
+
+.input-box {
+    margin: 5px;
+}
+
+.input-box label {
+    display: inline-block;
+    width: 40px;
+}
+
+.input-box input {
+    padding: 5px;
+    width: 75px;
+    text-align: right;
+}
 
 
 
