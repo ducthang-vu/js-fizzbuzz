@@ -149,7 +149,8 @@ main {
     font-weight: bold;
 }
 
-.main-table th {
+.main-table th,
+.main-table td {
     width: 40px;
 }
 
