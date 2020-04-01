@@ -104,13 +104,11 @@ main {
     padding: 10px;
     height: 360px;
     flex-basis: 30%;
-    border: 2px solid #000;
 }
 
 .default-section {
     margin-bottom: 25px;
     padding: 5px 0 15px 0;
-    border-bottom: 1px dotted #ccc
 }
 
 .input-wrapper {
@@ -143,7 +141,7 @@ main {
     padding: 10px;
     height: 380px;
     flex-basis: 40%;
-    border: 2px solid #000;
+    border: 2px solid #fff;
 }
 
 .main-table caption {
