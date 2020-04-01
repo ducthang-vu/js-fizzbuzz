@@ -4,10 +4,11 @@
 
 
 console.log('main. js is working')
-alert('Solution of problem in CONSOLE')
+
 
 // BASIC SOLUTION //
 
+alert('Solution of problem in CONSOLE')
 for (i = 1; i < 101; i++) {
     if (i % 15 == 0) {
         console.log('FizzBuzz')
