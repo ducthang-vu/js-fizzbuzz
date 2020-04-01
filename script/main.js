@@ -72,6 +72,12 @@ default_button.addEventListener('click',
     function () {
         var list = building_list(1, 100, 3, 5)
         building_table_orderItem(list, main_table)
+        
+        // resetting inputs to default
+        document.getElementById('min').value = 1
+        document.getElementById('max').value = 100
+        document.getElementById('a').value = 3
+        document.getElementById('b').value = 5
     }
 )
 
