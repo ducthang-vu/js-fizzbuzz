@@ -81,13 +81,9 @@ custom_button.addEventListener('click',
         var max = parseInt(document.getElementById('max').value)
         var a = parseInt(document.getElementById('a').value)
         var b = parseInt(document.getElementById('b').value)
-        console.log(min)
-        console.log(max)
-        console.log(a)
-        console.log(b)
 
         var list = building_list(min, max, a, b)
-        console.log(list)
+
         building_table_orderItem(list, main_table)
     }
 )
