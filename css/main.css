@@ -1,0 +1,107 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITIES */
+.button {
+    display: block;
+    padding: 10px;
+}
+
+.flex-nw {
+    display: flex;
+}
+
+.flex-w {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.central {
+    margin: auto;
+}
+
+.green-color {
+    color: green;
+}
+
+.red-color {
+    color: red;
+}
+
+.small-text {
+    font-size: 70%;
+}
+
+
+
+
+
+/* APP */
+.app {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.app > * {
+    width: 100%;
+}
+
+
+/* HEADER */
+header > * {
+    padding: 10px;
+    flex-basis: 200px;
+}
+
+/* MAIN */
+main {
+    
+}
+
+
+
+/* Main: USER-SECTION */
+.user-section {
+    flex-basis: 40%;
+}
+
+input-wrapper input{
+    padding: 10px;
+    flex-basis: 10px;
+}
+
+
+
+
+/* Main: OUTPUT-SECTION */
+.output-section {
+    flex-basis: 60%;
+    overflow: auto;
+}
+
+
+.main-table th {
+    width: 30px;
+}
+
+
+/* FOOTER  */
+footer {
+    font-style: italic;
+    font-size: 5px;
+    text-align: right;
+    padding: 0 15px 10px;
+  }

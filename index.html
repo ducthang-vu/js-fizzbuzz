@@ -3,10 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>js-fizzbuzz</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>All in console</h1>
+    <div class="app flex">
+        <header class="text-center">
+            <h1>js-fizzbuzz</h1>
+            <p class="istruction">
+                <ul>
+                    <li>Press the button to build a list of intergers beetween a minimum and maximum value, being multiples of both parameters a and b are substituted with the string "FizzBuzz"; multiples of a but not b with "Fizz"; and multiples of b but not a with "Buzz" </li>
+                    <li>Default values for min, max, a and b are: 0, 100, 3 and 5</li>
+                </ul>
+            </p>
+        </header>
+        
+        <main class="flex-w">
+            <section class="user-section">
+                <div>
+                    <div class=default-section>
+                        <ul>
+                            <li>1</li>
+                            <li>100</li>
+                            <li>3</li>
+                            <li>5</li>
+                        </ul>
+                        <button id="default-button" class="button block">Use default values</button>
+                    </div>
+
+                    <div class=custom-wrapper>
+                        <div class="input-wrapper flex-w">
+                            <input id="min" type="number" placeholder="Min">
+                            <input id="max" type="number" placeholder="Max">
+                            <input id="a" type="number" placeholder="a">
+                            <input id="b" type="number" placeholder="b">
+                        </div>
+
+                        <div>
+                            <button id="custom-button" class="button block">Use my values</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="output-section">
+                <table class="main-table central text-center">
+                    <thead>
+                        <caption>List</caption>
+                        <tr>
+                            <th>#</th>
+                            <th>Items</th>
+                        </tr>
+                    </thead>
+                    <tbody id="main-table-body">
+                        <tr>
+                            <th>...</th>
+                            <th>...</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p><br>
+                Made by Thang <br>
+                18/02/2020
+            </p>
+        </footer>
+    </div>
 
     <!-- SCRIPT --> 
     <script src="script/main.js"></script>
